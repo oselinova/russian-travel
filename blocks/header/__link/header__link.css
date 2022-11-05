@@ -4,9 +4,9 @@
   font-size: 24px;
   font-weight: normal;
   line-height: 28px;
-  transition: opacity .2s linear;
+  transition: opacity .5s linear;
 }
 
 .header__link:hover {
-  opacity: .8;
+  opacity: .5;
 }
