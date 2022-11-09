@@ -22,7 +22,7 @@
     .place {
       grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
       gap: 48px 28px;
-      margin: 0 auto calc(3.125rem + (100vw - 320px) / (768 - 320) * (72 - 50));
+      margin: 0 auto calc(50 + (100vw - 320px) / (768 - 320) * (72 - 50));
     }
   }
   
