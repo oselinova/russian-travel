@@ -9,14 +9,14 @@
   margin-bottom: 0;
 }
   
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 .place__paragraph {
     font-size: calc(16px + (100vw - 320px) / (768 - 320));
     line-height: 1.6;
   }
 }
   
- @media screen and (max-width: 425px) {
+ @media screen and (max-width: 424px) {
   .place__paragraph {
     padding: 0 16px;
   }
