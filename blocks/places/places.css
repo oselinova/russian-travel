@@ -12,7 +12,11 @@
   
   @media screen and (max-width: 768px) {
     .places {
+<<<<<<< HEAD
       max-width: 720px;
+=======
+      padding: 0 24px;
+>>>>>>> d375f5a0a558cd68901a4764a34fbe202a0c9be2
     }
   }
   
