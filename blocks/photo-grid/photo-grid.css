@@ -8,15 +8,17 @@
   padding: 0 48px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     max-width: 928px;
     grid-gap: 14px;
+    margin-top: 92px;
+    padding: 0 48px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     max-width: 720px;
@@ -26,12 +28,12 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     max-width: 288px;
     grid-gap: 12px;
-    margin-top: 64px;
     padding: 0 16px;
+    margin-top: 64px;
   }
 }

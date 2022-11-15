@@ -6,12 +6,34 @@
   font-weight: 900;
   line-height: calc(76 / 72);
   z-index: 2;
+  padding-bottom: 32px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1024px) {
   .cover__title {
-    max-width: 255px;
+    padding: 195px;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    padding: 115px;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cover__title {
+    max-width: 288px;
     font-size: 32px;
-    line-height: 1.09;
+    line-height: 109%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    padding: 33px;
+    padding-bottom: 0;
   }
 }

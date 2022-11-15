@@ -4,6 +4,12 @@
 /*FONTS*/
 @import url(../fonts/fonts.css);
 
+/*BODY*/
+@import url(../blocks/body/body.css);
+
+/*HTML*/
+@import url(../blocks/html/html.css);
+
 /*PAGE*/
 @import url(../blocks/page/page.css);
 

@@ -30,27 +30,23 @@
   opacity: 0.8;
 }
 
-@media screen and (min-width: 1279px) {
+@media screen and (max-width: 1024px) {
   .cover__background {
-    min-height: 740px;
+  min-height: 640px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
   .cover__background {
-    min-height: calc(100vw * 640 / 1024);
+  min-height: 480px;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .cover__background {
-    min-height: calc(100vw * 480 / 768);
-  }
-}
 
 @media screen and (max-width: 320px) {
   .cover__background {
-    background-size: cover;
+  min-height: 200px;
+  justify-content: flex-start;
   }
 }
 

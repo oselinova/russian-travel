@@ -1,6 +1,6 @@
 .cover__subtittle {
   max-width: 360px;
-  margin: 32px auto 0;
+  margin: 2rem auto 0;
   text-align: center;
   font-size: 18px;
   font-weight: normal;
@@ -8,10 +8,25 @@
   z-index: 2;
 }
 
-@media screen and (max-width: 650px) {
-  .cover__subtitle {
+@media screen and (max-width: 1024px) {
+  .cover__subtittle {
+    margin-top: 32px;
+    margin-bottom: 195px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtittle {
+    margin-top: 32px;
+    margin-bottom: 115px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .cover__subtittle {
+    margin-top: 16px;
+    margin-bottom: 33px;
     font-size: 14px;
-    margin: 16px 15px 0 16px;
-    line-height: 1.14;
   }
 }
